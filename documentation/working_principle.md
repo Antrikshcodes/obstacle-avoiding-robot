@@ -117,3 +117,4 @@ The 2WD chassis utilizes differential velocity kinematics. Turning is performed 
   Left and right wheels rotate at identical speeds in opposite directions. The instant center of rotation (ICR) coincides exactly with the midpoint of the drive axle, allowing the robot to turn within its own footprint without lateral translation.
 * **Straight Forward:**
   $$\omega_L = \omega_R > 0$$
+

@@ -148,3 +148,4 @@ Brushed DC motors produce inductive kickback spikes and high-frequency broadband
 1. **Snubber / Decoupling Capacitors:** Solder a $100\text{ nF}$ ($0.1\,\mu\text{F}$) monolithic ceramic capacitor across the terminals of each TT DC motor.
 2. **Bulk Decoupling:** Place an electrolytic capacitor ($470\,\mu\text{F} \text{ to } 1000\,\mu\text{F}$, $\ge 16\text{V}$) across the 5V power bus near the ESP32 VIN pin to absorb inrush current surges from the SG90 servo motor.
 3. **Physical Isolation:** Route logic signal wires (GPIO to L298N inputs, Echo, Trig, Servo PWM) in a separate bundle from high-current battery and motor wiring.
+

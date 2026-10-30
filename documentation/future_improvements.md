@@ -91,3 +91,4 @@ graph LR
 * Run **micro-ROS** natively on the ESP32 via Wi-Fi UDP.
 * Publish sensor scans to `/scan` (`sensor_msgs/msg/LaserScan`) and listen to velocity commands on `/cmd_vel` (`geometry_msgs/msg/Twist`).
 * Connect directly to a host PC running ROS 2 Humble/Iron to deploy full SLAM (Cartographer or SLAM Toolbox) and Nav2 autonomous path planning.
+

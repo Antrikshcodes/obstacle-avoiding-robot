@@ -125,3 +125,4 @@ The firmware tracks the direction of consecutive pivot turns:
 | `DURATION_TURN_MS` | `380 ms` | Time for ~90° differential pivot | Calibrate according to floor surface grip and battery charge |
 | `DURATION_U_TURN_MS` | `760 ms` | Time for ~180° escape turn | Double the standard 90° pivot duration |
 | `DURATION_BACKWARD_MS` | `320 ms` | Reverse clearance duration | Provides sufficient turning clearance from critical obstacles |
+

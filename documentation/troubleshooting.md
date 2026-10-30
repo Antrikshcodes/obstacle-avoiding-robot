@@ -51,3 +51,4 @@ Use this reference table when validating circuits with a digital multimeter:
 | **ESP32 3V3 Pin** | $3.30\text{ V}$ | $3.20\text{ V} - 3.35\text{ V}$ | $\ne 3.3\text{ V}$: Blown onboard LDO or internal short circuit. |
 | **Divider Output (Echo Pin)** | $3.33\text{ V}$ (pulsed) | $3.10\text{ V} - 3.45\text{ V}$ | $> 3.6\text{ V}$: Resistor value incorrect; risk of damaging ESP32 GPIO. |
 | **Motor Running Current (Pair)** | $300\text{ mA} - 500\text{ mA}$ | $200\text{ mA} - 1.2\text{ A}$ | $> 1.5\text{ A}$: Mechanical gearbox stall or shorted motor leads. |
+

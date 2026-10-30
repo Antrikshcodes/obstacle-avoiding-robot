@@ -91,3 +91,4 @@ $$V_{\text{ESP32\_IN}} = 5.0\text{ V} \times \left( \frac{2000\,\Omega}{1000\,\O
 
 2. **Decoupling from Logic Rail:**
    Never power the SG90 servo motor from the ESP32 `3V3` pin. Servos can pull peak currents exceeding $500\text{ mA}$ under stall or rapid direction reversal, which will immediately drop the ESP32 core voltage below the $2.7\text{ V}$ brownout threshold and cause continuous system reboots.
+
